@@ -45,6 +45,7 @@ h1 {
 h2 {
   font-weight: 400;
 }
+
 .sample-section-wrap {
   position: relative;
   background-color: white;
@@ -57,10 +58,12 @@ h2 {
   padding: 40px;
 }
 
-.test {
+.page-home {
   width: 100%;
   height: 800px;
   background-color: rgb(32, 32, 32);
+  display: flex;
+  justify-content: center;
 }
 
 nav a {
@@ -94,4 +97,16 @@ nav ul {
 .nav-bar.scrolled {
   background-color: rgb(216, 84, 84) !important;
   transition: background-color 300ms linear;
+}
+
+.inner-page-home {
+  height: auto;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+}
+
+.test {
+  color: aliceblue;
 }
