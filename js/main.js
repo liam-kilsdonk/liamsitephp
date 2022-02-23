@@ -16,15 +16,10 @@ $(window).resize(function () {
   parallax_height();
 });
 
-$(document).ready(function(){
-  $(window).scroll(function(){
-      if($(window).scrollTop() > $(window).height(0)){
-          $(".nav-ar").css({"background-color":"transparent"});   
-      }
-      else{
-          $(".nav-ar").css({"background-color":"white"});
-      }
-
-  })
-})
+$(function () {
+  $(document).scroll(function () {
+    var $nav = $(".nav-bar");
+    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+  });
+});
 

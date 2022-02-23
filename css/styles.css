@@ -37,9 +37,11 @@
   text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
   font-family: "Montserrat", sans-serif;
 }
+
 h1 {
   font-weight: 500;
 }
+
 h2 {
   font-weight: 400;
 }
@@ -81,10 +83,15 @@ nav ul {
   justify-content: space-between;
   position: fixed;
   top: 0px;
+  z-index: 1;
 }
 
 .logo {
-  margin-left: 20px;
+  margin-left: 5px;
+  margin-top: 5px;
 }
 
-
+.nav-bar.scrolled {
+  background-color: rgb(216, 84, 84) !important;
+  transition: background-color 300ms linear;
+}
