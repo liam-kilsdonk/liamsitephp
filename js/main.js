@@ -23,3 +23,9 @@ $(function () {
   });
 });
 
+const naam = "liam"
+const achternaam = "kilsdonk"
+
+full_name = `Deze website is gemaakt door: ${naam} ${achternaam}`
+
+console.log(full_name)
