@@ -105,7 +105,7 @@ nav ul {
   margin-left: auto;
   margin-right: auto;
   margin-top: 40px;
-  margin-bottom: 40px;
+  margin-bottom: 24px;
 }
 
 .pop-menu {
@@ -127,8 +127,8 @@ nav ul {
 }
 
 .top-col {
-  border-top-left-radius: 50px;
-  border-top-right-radius: 50px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
   width: 100%;
   height: 150px;
   background-color: aliceblue;
@@ -137,14 +137,25 @@ nav ul {
 }
 
 .top-col img {
-  border-top-left-radius: 50px;
-  border-top-right-radius: 50px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  width: auto;
+  height: 100%;
 }
 
 .down-col {
-  border-bottom-left-radius: 50px;
-  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
   width: 100%;
   height: 75px;
-  background-color: rgb(61, 60, 61);
+  background-color: rgb(179, 129, 160);
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+
+.next-page {
+  width: 100%;
+  height: 500px;
+  background-color: rgb(61, 59, 61);
 }
