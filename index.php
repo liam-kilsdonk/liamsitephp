@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sushi palace | Home</title>
     <link rel="stylesheet" href="css/styles.css" />
-    <link rel="shortcut icon" href="#" />
+    <link rel="shortcut icon" href="images/logo-sushi.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -53,7 +53,55 @@
           </p>
         </div>
       </div>
-      <div class="test"></div>
+      <div class="page-home">
+        <div class="inner-page-home">
+          <div class="pop-menu">
+            <div class="pop-row">
+              <div class="pop-col">
+                <div class="top-col">
+                  <img width="100%" src="images/true-roll-1 (1).png" alt="#" />
+                </div>
+                <div class="down-col">
+                  <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+              </div>
+              <div class="pop-col">
+                <div class="top-col">
+                  <img src="images/true-roll-2(2).png" alt="#" />
+                </div>
+                <div class="down-col">Lorem ipsum dolor sit amet.</div>
+              </div>
+              <div class="pop-col">
+                <div class="top-col">
+                  <img src="images/true-roll-3 (3).png" alt="#" />
+                </div>
+                <div class="down-col">Lorem ipsum dolor sit amet.</div>
+              </div>
+            </div>
+            <div class="pop-row">
+              <div class="pop-col">
+                <div class="top-col">
+                  <img src="images/true-roll-4 (2).png" alt="#" />
+                </div>
+                <div class="down-col">Lorem ipsum dolor sit amet.</div>
+              </div>
+              <div class="pop-col">
+                <div class="top-col">
+                  <img src="images/true-roll-5(1).png" alt="#" />
+                </div>
+                <div class="down-col">Lorem ipsum dolor sit amet.</div>
+              </div>
+              <div class="pop-col">
+                <div class="top-col">
+                  <img src="images/true-roll-6 (3).png" alt="#" />
+                </div>
+                <div class="down-col">Lorem ipsum dolor sit amet.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="next-page"></div>
     </main>
     <footer></footer>
   </body>

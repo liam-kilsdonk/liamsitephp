@@ -159,3 +159,10 @@ nav ul {
   height: 500px;
   background-color: rgb(61, 59, 61);
 }
+
+.intro-menu {
+  width: 100%;
+  height: auto;
+  margin-bottom: 40px;
+  color: white;
+}
