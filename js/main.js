@@ -29,3 +29,7 @@ const achternaam = "kilsdonk"
 full_name = `Deze website is gemaakt door: ${naam} ${achternaam}`
 
 console.log(full_name)
+
+const testc = document.querySelector("#testcolor");
+
+document.getElementById("testcolor").style.color = "red";

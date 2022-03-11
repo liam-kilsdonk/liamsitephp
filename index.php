@@ -55,6 +55,7 @@
       </div>
       <div class="page-home">
         <div class="inner-page-home">
+          <div class="intro-menu"><p>Populaire gerechten</p></div>
           <div class="pop-menu">
             <div class="pop-row">
               <div class="pop-col">
@@ -62,14 +63,21 @@
                   <img width="100%" src="images/true-roll-1 (1).png" alt="#" />
                 </div>
                 <div class="down-col">
-                  <p>Lorem ipsum dolor sit amet.</p>
+                  <h4>Futomaki</h4>
+                  <br />
+                  <p>
+                    We blijven nog even bij de maki-techniek. De Futomaki is
+                    namelijk de uitgebreide versie van de maki. Deze wordt met
+                    een heel norivel gemaakt en bestaat ook altijd uit meer dan
+                    twee vullingen!
+                  </p>
                 </div>
               </div>
               <div class="pop-col">
                 <div class="top-col">
                   <img src="images/true-roll-2(2).png" alt="#" />
                 </div>
-                <div class="down-col">Lorem ipsum dolor sit amet.</div>
+                <div class="down-col"><p id="testcolor">hallo wereld</p></div>
               </div>
               <div class="pop-col">
                 <div class="top-col">
@@ -101,7 +109,7 @@
           </div>
         </div>
       </div>
-      <div class="next-page"></div>
+      <div class="next-page">//</div>
     </main>
     <footer></footer>
   </body>
