@@ -19,17 +19,18 @@ $(window).resize(function () {
 $(function () {
   $(document).scroll(function () {
     var $nav = $(".nav-bar");
-    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+    $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
   });
 });
 
-const naam = "liam"
-const achternaam = "kilsdonk"
+const naam = "liam";
+const achternaam = "kilsdonk";
 
-full_name = `Deze website is gemaakt door: ${naam} ${achternaam}`
+full_name = `Deze website is gemaakt door: ${naam} ${achternaam}`;
 
-console.log(full_name)
+console.log(full_name);
 
-const testc = document.querySelector("#testcolor");
-
-document.getElementById("testcolor").style.color = "red";
+$(window).scroll(function () {
+  var scroll = $(window).scrollTop();
+  $(".sample-header-section").css({ opacity: (220 - scroll) / 100 });
+});
