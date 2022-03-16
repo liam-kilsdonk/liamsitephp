@@ -47,4 +47,5 @@
     crossorigin="anonymous"
   ></script>
   <script src="../js/main.js"></script>
+  <script src="https://kit.fontawesome.com/143048b42c.js" crossorigin="anonymous"></script>
 </html>

@@ -125,8 +125,25 @@ nav ul {
   height: auto;
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
   bottom: 0px;
+  background-color: rgb(216, 84, 84);
+}
+
+.down-foot {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+.blok-foot {
+  width: 33%;
+  height: 250px;
+  color: white;
   background-color: rgb(216, 84, 84);
 }
 

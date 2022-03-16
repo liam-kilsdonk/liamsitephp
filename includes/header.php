@@ -11,7 +11,7 @@
               <a href="menu.php">Menu</a>
               <a href="gallery.php">Gallery</a>
               <a href="contact.php">Contact</a>
-              <a href="login.php">Login</a>
+              <a href="login.php"><i class="fas fa-user"></i> Login</a>
             </ul>
           </nav>
         </div>
