@@ -33,7 +33,147 @@
       </div>
       <div class="page-reserv">
         <div class="inner-page-home">
-          <div class="content-reserv"></div>
+          <div class="content-reserv">
+            <div class="masonry">
+              <div class="mItem">
+                <img src="../images/making sushi rolls/pexels-photo-8093940.jpeg" />
+              </div>
+
+              <div class="mItem">
+                <img src="../images/making sushi rolls/pexels-photo-8951045.jpeg" />
+              </div>
+
+              <div class="mItem">
+                <img src="../images/making sushi rolls/pexels-photo-8951089.jpeg" />
+              </div>
+
+              <div class="mItem">
+                <img src="../images/making sushi rolls/pexels-photo-8951106.jpeg" />
+              </div>
+
+              <div class="mItem">
+                <img src="../images/making sushi rolls/pexels-photo-8951107.jpeg" />
+              </div>
+
+              <div class="mItem">
+                <img src="../images/making sushi rolls/pexels-photo-8951108.jpeg" />
+              </div>
+
+              <div class="mItem">
+                <img src="../images/making sushi rolls/pexels-photo-8951136.jpeg" />
+              </div>
+
+              <div class="mItem">
+                <img src="../images/making sushi rolls/pexels-photo-8951146.jpeg" />
+              </div>
+              <div class="mItem">
+                <img src="../images/making sushi rolls/pexels-photo-8951149.jpeg" />
+              </div>
+
+              <div class="mItem">
+                <img src="../images/making sushi rolls/pexels-photo-8951149.jpeg" />
+              </div>
+
+              <div class="mItem">
+                <img src="../images/making sushi rolls/pexels-photo-8951178.jpeg" />
+              </div>
+
+              <div class="mItem">
+                <img src="../images/making sushi rolls/pexels-photo-8951182.jpeg" />
+              </div>
+
+              <div class="mItem">
+                <img src="../images/making sushi rolls/pexels-photo-8951244.jpeg" />
+              </div>
+
+              <div class="mItem">
+                <img src="../images/making sushi rolls/pexels-photo-8951247.jpeg" />
+              </div>
+
+              <div class="mItem">
+                <img src="../images/making sushi rolls/pexels-photo-8951248.jpeg" />
+              </div>
+
+              <div class="mItem">
+                <img src="../images/making sushi rolls/pexels-photo-8951271.jpeg" />
+              </div>
+              <div class="mItem">
+                <img src="../images/placeholder.png" />
+              </div>
+
+              <div class="mItem">
+                <img src="../images/placeholder.png" />
+              </div>
+
+              <div class="mItem">
+                <img src="../images/placeholder.png" />
+              </div>
+
+              <div class="mItem">
+                <img src="../images/placeholder.png" />
+              </div>
+              <div class="mItem">
+                <img src="../images/placeholder.png" />
+              </div>
+
+              <div class="mItem">
+                <img src="../images/placeholder.png" />
+              </div>
+
+              <div class="mItem">
+                <img src="../images/placeholder.png" />
+              </div>
+
+              <div class="mItem">
+                <img src="../images/placeholder.png" />
+              </div>
+              <div class="mItem">
+                <img src="../images/placeholder.png" />
+              </div>
+
+              <div class="mItem">
+                <img src="../images/placeholder.png" />
+              </div>
+
+              <div class="mItem">
+                <img src="../images/placeholder.png" />
+              </div>
+
+              <div class="mItem">
+                <img src="../images/placeholder.png" />
+              </div>
+              <div class="mItem">
+                <img src="../images/placeholder.png" />
+              </div>
+
+              <div class="mItem">
+                <img src="../images/placeholder.png" />
+              </div>
+
+              <div class="mItem">
+                <img src="../images/placeholder.png" />
+              </div>
+
+              <div class="mItem">
+                <img src="../images/placeholder.png" />
+              </div>
+              <div class="mItem">
+                <img src="../images/placeholder.png" />
+              </div>
+
+              <div class="mItem">
+                <img src="../images/placeholder.png" />
+              </div>
+
+              <div class="mItem">
+                <img src="../images/placeholder.png" />
+              </div>
+
+              <div class="mItem">
+                <img src="../images/placeholder.png" />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </main>
@@ -47,5 +187,8 @@
     crossorigin="anonymous"
   ></script>
   <script src="../js/main.js"></script>
-  <script src="https://kit.fontawesome.com/143048b42c.js" crossorigin="anonymous"></script>
+  <script
+    src="https://kit.fontawesome.com/143048b42c.js"
+    crossorigin="anonymous"
+  ></script>
 </html>

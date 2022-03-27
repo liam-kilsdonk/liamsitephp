@@ -33,7 +33,186 @@
       </div>
       <div class="page-reserv">
         <div class="inner-page-home">
-          <div class="content-reserv"></div>
+          <div class="content-reserv">
+            <div class="menu-card-lay">
+              <div class="card-row">
+                <div class="menu-item">
+                  <img src="../images/nigiri.jpg" alt="#" />
+                  <div class="menu-info">
+                    <div class="inner-text">
+                      <h4>Placeholder</h4>
+                      <hr />
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Velit, veritatis?
+                      </p>
+                      <p>€ 100,-</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="menu-item">
+                  <img src="../images/Inari-zushi.jpg" alt="#" />
+                  <div class="menu-info">
+                    <div class="inner-text">
+                      <h4>Placeholder</h4>
+                      <hr />
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Velit, veritatis?
+                      </p>
+                      <p>€ 100,-</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="menu-item">
+                  <img src="../images/makizushi reform.png" alt="#" />
+                  <div class="menu-info">
+                    <div class="inner-text">
+                      <h4>Placeholder</h4>
+                      <hr />
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Velit, veritatis?
+                      </p>
+                      <p>€ 100,-</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card-row">
+                <div class="menu-item">
+                  <img src="../images/temaki.jpg" alt="#" />
+                  <div class="menu-info">
+                    <div class="inner-text">
+                      <h4>Placeholder</h4>
+                      <hr />
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Velit, veritatis?
+                      </p>
+                      <p>€ 100,-</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="menu-item">
+                  <img src="../images/placeholder.png" alt="#" />
+                  <div class="menu-info">
+                    <div class="inner-text">
+                      <h4>Placeholder</h4>
+                      <hr />
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Velit, veritatis?
+                      </p>
+                      <p>€ 100,-</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="menu-item">
+                  <img src="../images/placeholder.png" alt="#" />
+                  <div class="menu-info">
+                    <div class="inner-text">
+                      <h4>Placeholder</h4>
+                      <hr />
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Velit, veritatis?
+                      </p>
+                      <p>€ 100,-</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card-row">
+                <div class="menu-item">
+                  <img src="../images/placeholder.png" alt="#" />
+                  <div class="menu-info">
+                    <div class="inner-text">
+                      <h4>Placeholder</h4>
+                      <hr />
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Velit, veritatis?
+                      </p>
+                      <p>€ 100,-</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="menu-item">
+                  <img src="../images/placeholder.png" alt="#" />
+                  <div class="menu-info">
+                    <div class="inner-text">
+                      <h4>Placeholder</h4>
+                      <hr />
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Velit, veritatis?
+                      </p>
+                      <p>€ 100,-</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="menu-item">
+                  <img src="../images/placeholder.png" alt="#" />
+                  <div class="menu-info">
+                    <div class="inner-text">
+                      <h4>Placeholder</h4>
+                      <hr />
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Velit, veritatis?
+                      </p>
+                      <p>€ 100,-</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card-row">
+                <div class="menu-item">
+                  <img src="../images/placeholder.png" alt="#" />
+                  <div class="menu-info">
+                    <div class="inner-text">
+                      <h4>Placeholder</h4>
+                      <hr />
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Velit, veritatis?
+                      </p>
+                      <p>€ 100,-</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="menu-item">
+                  <img src="../images/placeholder.png" alt="#" />
+                  <div class="menu-info">
+                    <div class="inner-text">
+                      <h4>Placeholder</h4>
+                      <hr />
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Velit, veritatis?
+                      </p>
+                      <p>€ 100,-</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="menu-item">
+                  <img src="../images/placeholder.png" alt="#" />
+                  <div class="menu-info">
+                    <div class="inner-text">
+                      <h4>Placeholder</h4>
+                      <hr />
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Velit, veritatis?
+                      </p>
+                      <p>€ 100,-</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </main>
@@ -47,5 +226,8 @@
     crossorigin="anonymous"
   ></script>
   <script src="../js/main.js"></script>
-  <script src="https://kit.fontawesome.com/143048b42c.js" crossorigin="anonymous"></script>
+  <script
+    src="https://kit.fontawesome.com/143048b42c.js"
+    crossorigin="anonymous"
+  ></script>
 </html>

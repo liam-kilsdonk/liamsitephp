@@ -33,7 +33,7 @@
       </div>
       <div class="page-reserv">
         <div class="inner-page-home">
-          <div class="content-reserv"></div>
+          <div class="content-reserv">//</div>
         </div>
       </div>
     </main>

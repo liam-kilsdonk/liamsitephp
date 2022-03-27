@@ -33,7 +33,71 @@
       </div>
       <div class="page-reserv">
         <div class="inner-page-home">
-          <div class="content-reserv"></div>
+          <div class="content-reserv">
+            <div class="content-res-page">
+              <div class="reserveer-tab">
+                <div class="img-reserveer">
+                  <img
+                    height="450px"
+                    src="../images/cutout res red.png"
+                    alt="#"
+                  />
+                </div>
+                <div class="function-reserveer">
+                  <div class="form-res">
+                    <form action="connector.php" method="POST">
+                      <div class="blok-res">
+                        <label for="name">naam:</label>
+                        <input
+                          type="text"
+                          id="name"
+                          name="full_name"
+                          value=""
+                        />
+                      </div>
+                      <div class="blok-res">
+                        <label for="name">Email:</label>
+                        <input
+                          type="text"
+                          id="email"
+                          name="full_email"
+                          value=""
+                        />
+                      </div>
+                      <div class="blok-res">
+                        <label for="name">mobiel:</label>
+                        <input
+                          type="text"
+                          id="phone"
+                          name="full_phone"
+                          value=""
+                        />
+                      </div>
+                      <br />
+                      <div class="center-res">
+                        <button class="custom-btn btn-4" name="stuur">
+                          stuur
+                        </button>
+                      </div>
+                    </form>
+                    <?php 
+                    
+                    require_once('../connector.php');
+                    
+                    if(isset($_POST['stuur'])) {
+                      $name = $_POST['full_name'];
+                      $mail = $_POST['full_email'];
+                      $phone = $_POST['full_phone'];
+
+                      echo $name;
+                      echo $mail;
+                      echo $phone;
+                    } ?>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </main>
@@ -47,5 +111,8 @@
     crossorigin="anonymous"
   ></script>
   <script src="../js/main.js"></script>
-  <script src="https://kit.fontawesome.com/143048b42c.js" crossorigin="anonymous"></script>
+  <script
+    src="https://kit.fontawesome.com/143048b42c.js"
+    crossorigin="anonymous"
+  ></script>
 </html>

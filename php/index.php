@@ -28,9 +28,7 @@
       </div>
       <div class="sample-section-wrap">
         <div class="sample-section">
-          <p>
-            Home
-          </p>
+          <p>Home</p>
         </div>
       </div>
       <div class="page-home">
@@ -51,12 +49,16 @@
                     aliquid.
                   </p>
                   <br />
-                  <h4>£ 1,69</h4>
+                  <h4>€ 1,69</h4>
                 </div>
               </div>
               <div class="pop-dish">
                 <div class="pic-dish">
-                  <img height="250px" src="../images/makizushi.jpg" alt="#" />
+                  <img
+                    height="250px"
+                    src="../images/makizushi reform.png"
+                    alt="#"
+                  />
                 </div>
                 <div class="text-dish">
                   <h3>Makizushi</h3>
@@ -67,7 +69,7 @@
                     aliquid.
                   </p>
                   <br />
-                  <h4>£ 2,99</h4>
+                  <h4>€ 2,99</h4>
                 </div>
               </div>
             </div>
@@ -85,7 +87,7 @@
                     aliquid.
                   </p>
                   <br />
-                  <h4>£ 1,99</h4>
+                  <h4>€ 1,99</h4>
                 </div>
               </div>
               <div class="pop-dish">
@@ -101,7 +103,7 @@
                     aliquid.
                   </p>
                   <br />
-                  <h4>£ 3,99</h4>
+                  <h4>€ 3,99</h4>
                 </div>
               </div>
             </div>
@@ -120,5 +122,8 @@
     crossorigin="anonymous"
   ></script>
   <script src="../js/main.js"></script>
-  <script src="https://kit.fontawesome.com/143048b42c.js" crossorigin="anonymous"></script>
+  <script
+    src="https://kit.fontawesome.com/143048b42c.js"
+    crossorigin="anonymous"
+  ></script>
 </html>
