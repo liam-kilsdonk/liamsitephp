@@ -45,7 +45,7 @@
                 </div>
                 <div class="function-reserveer">
                   <div class="form-res">
-                    <form action="connector.php" method="POST">
+                    <form action="../actions/reservation_action.php" method="POST">
                       <div class="blok-res">
                         <label for="name">naam:</label>
                         <input
