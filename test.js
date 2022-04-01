@@ -10,3 +10,16 @@ button.addEventListener("click", (e) => {
     }
   }
 });
+
+fetch("https://pokeapi.co/api/v2/pokemon/ditto")
+  .then((response) => {
+    return response.json();
+  })
+  .then((data) => {
+    const ID = document.querySelector("#container");
+    console.log(data.sprites.front_default);
+    ID.innerHTML = "<img src='" + data.sprites.front_default + "'/>";
+  })
+  .catch((error) => {
+    console.warn(error);
+  });

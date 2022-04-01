@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin| test page</title>
+    <title>Admin | test page</title>
 </head>
 <body>
     <style>
@@ -27,7 +27,7 @@
         </head>
         <body>
         
-        <h2>HTML Table</h2>
+        <h2>Test pagina</h2>
         
         <table>
           <tr>
@@ -69,7 +69,7 @@
 
         <?php
 
-        require_once('../connector.php');
+        require_once('../actions/reservation_read.php');
         
         ?>
         

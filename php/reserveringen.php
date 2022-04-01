@@ -73,6 +73,10 @@
                           value=""
                         />
                       </div>
+                      <br>
+                      <div class="blok-res">
+                      <input type="datetime-local" />
+                      </div>
                       <br />
                       <div class="center-res">
                         <button class="custom-btn btn-4" name="stuur">

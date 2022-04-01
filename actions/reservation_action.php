@@ -10,3 +10,5 @@ $sql = "INSERT INTO reserveringen (naam, mobiel, email) VALUES ('$full_name', '$
 
 $conn->exec($sql);
 
+header("location: ../php/index.php");
+

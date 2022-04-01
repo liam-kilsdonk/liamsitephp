@@ -10,7 +10,7 @@
               <a href="Reserveringen.php">Reserveringen</a>
               <a href="menu.php">Menu</a>
               <a href="gallery.php">Gallery</a>
-              <a href="contact.php">Contact</a>
+              <a href="contact.php"><i class="fas fa-shopping-cart"></i></a>
               <a href="login.php"><i class="fas fa-user"></i> Login</a>
             </ul>
           </nav>
