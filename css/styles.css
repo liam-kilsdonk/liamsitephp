@@ -148,12 +148,22 @@ nav ul {
   background-color: rgb(216, 84, 84);
 }
 
+@media (max-width: 800px) {
+  .blok-foot {
+    width: 150px;
+    height: auto;
+    color: white;
+    background-color: rgb(216, 84, 84);
+    margin-bottom: 1em;
+  }
+}
+
 .blok-foot a {
   text-decoration: none;
   color: white;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
   .down-foot {
     width: 80%;
     margin-left: auto;
@@ -539,4 +549,15 @@ input::-moz-focus-inner {
   opacity: 0;
   transition: opacity 0.5s;
   background-color: rgba(216, 84, 84, 0.5);
+}
+
+.page-panel {
+  width: 55%;
+  height: auto;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }

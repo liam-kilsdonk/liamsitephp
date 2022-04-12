@@ -75,7 +75,10 @@
                       </div>
                       <br>
                       <div class="blok-res">
-                      <input type="datetime-local" />
+                      <input type="datetime-local"
+                          id="date"
+                          name="date_time"
+                          value="" />
                       </div>
                       <br />
                       <div class="center-res">
@@ -92,10 +95,12 @@
                       $name = $_POST['full_name'];
                       $mail = $_POST['full_email'];
                       $phone = $_POST['full_phone'];
+                      $date = $POST['date_time'];
 
                       echo $name;
                       echo $mail;
                       echo $phone;
+                      echo $date;
                     } ?>
                   </div>
                 </div>
