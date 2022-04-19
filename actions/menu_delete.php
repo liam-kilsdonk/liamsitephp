@@ -3,7 +3,7 @@
 if(isset($_GET['id'])) {
     include ('../connector.php');
 
-    $sql = "DELETE FROM reserveringen WHERE id=:id";
+    $sql = "DELETE FROM menu WHERE id=:id";
     $stmt = $conn->prepare($sql);
     $stmt->bindParam(':id', $_GET['id']);
     $stmt->execute();

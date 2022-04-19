@@ -35,10 +35,111 @@
         </div>
       </div>
       <div class="page-home">
-        <div class="page-panel">
-          <?php
-            require_once('../actions/reservation_read.php')
-          ?>
+        <div class="warp-this">
+          <div class="page-panel">
+            <div class="description">
+              <h4>Reserveringen. (Read)</h4>
+            </div>
+            <?php
+                require_once('../actions/reservation_read.php')
+              ?>
+          </div>
+          <div class="page-panel">
+            <div class="description">
+              <h4>Voeg product aan menu. (Create)</h4>
+            </div>
+            <form action="../actions/menu_updatedelete.php" method="POST">
+              <div class="blok-input">
+                <label for="name">Product naam:</label>
+                <input type="text" id="item" name="product" value="" />
+              </div>
+              <div class="blok-input">
+                <label for="name">beschrijving:</label>
+                <input type="text" id="sub" name="subtext" value="" />
+              </div>
+              <div class="blok-input">
+                <label for="name">Prijs:</label>
+                <input type="text" id="kost" name="prijs" value="" />
+              </div>
+              <div class="blok-input">
+                <label for="name">Image:</label>
+                <input type="text" id="foto" name="image" value="" />
+              </div>
+              <br />
+              <div class="center-res">
+                <button class="custom-btn btn-4" name="stuur">stuur</button>
+              </div>
+            </form>
+            <?php 
+                    
+                    require_once('../connector.php');
+                    
+                    if(isset($_POST['stuur'])) {
+                      $product = $_POST['product'];
+                      $subtext = $_POST['subtext'];
+                      $prijs = $_POST['prijs'];
+                      $image = $POST['image'];
+
+                      echo $product;
+                      echo $subtext;
+                      echo $prijs;
+                      echo $image;
+                    } ?>
+          </div>
+          <div class="page-panel">
+            <div class="description">
+              <h4>Menu updaten. (Update)</h4>
+            </div>
+            <form action="../actions/menu_updateonly.php" method="POST">
+            <div class="blok-input">
+                <label for="name">ID:</label>
+                <input type="text" id="num" name="identiteit" value="" />
+              </div>
+              <div class="blok-input">
+                <label for="name">Product naam:</label>
+                <input type="text" id="item" name="product" value="" />
+              </div>
+              <div class="blok-input">
+                <label for="name">beschrijving:</label>
+                <input type="text" id="sub" name="subtext" value="" />
+              </div>
+              <div class="blok-input">
+                <label for="name">Prijs:</label>
+                <input type="text" id="kost" name="prijs" value="" />
+              </div>
+              <div class="blok-input">
+                <label for="name">Image:</label>
+                <input type="text" id="foto" name="image" value="" />
+              </div>
+              <br />
+              <div class="center-res">
+                <button class="custom-btn btn-4" name="stuur">stuur</button>
+              </div>
+            </form>
+            <?php 
+                    
+                    require_once('../connector.php');
+                    
+                    if(isset($_POST['stuur'])) {
+                      $product = $_POST['product'];
+                      $subtext = $_POST['subtext'];
+                      $prijs = $_POST['prijs'];
+                      $image = $POST['image'];
+
+                      echo $product;
+                      echo $subtext;
+                      echo $prijs;
+                      echo $image;
+                    } ?>
+          </div>
+          <div class="page-panel">
+            <div class="description">
+              <h4>Menu producten. (Delete)</h4>
+            </div>
+            <?php
+                require_once('../actions/menu_read.php')
+              ?>
+          </div>
         </div>
       </div>
     </main>

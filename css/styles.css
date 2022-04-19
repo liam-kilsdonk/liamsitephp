@@ -88,6 +88,13 @@ h2 {
   height: auto;
 }
 
+.items-sort {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
 nav a {
   color: white;
   display: block;
@@ -320,7 +327,7 @@ path {
   position: absolute;
 }
 label {
-  color: #c2c2c5;
+  color: black;
   display: block;
   font-size: 14px;
   height: 16px;
@@ -328,20 +335,21 @@ label {
   margin-bottom: 5px;
 }
 input {
-  background: transparent;
+  background: rgb(195, 194, 194);
+  border-color: 1px black solid;
   border: 0;
-  color: #f2f2f2;
+  color: #000;
   font-size: 20px;
   height: 30px;
   line-height: 30px;
-  outline: none !important;
   width: 100%;
 }
 input::-moz-focus-inner {
   border: 0;
 }
 #submit {
-  color: #707075;
+  color: black;
+  background-color: white;
   margin-top: 40px;
   transition: color 300ms;
 }
@@ -527,6 +535,8 @@ input::-moz-focus-inner {
   display: flex;
   width: 375px;
   height: 250px;
+  margin-bottom: 1em;
+  margin-right: 1em;
 }
 
 .menu-item:hover .menu-info {
@@ -560,4 +570,28 @@ input::-moz-focus-inner {
   padding: 20px;
   margin-top: 1em;
   margin-bottom: 1em;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.warp-this {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+}
+
+.description {
+  width: 100%;
+  height: auto;
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+}
+
+.search-nav {
+  background-color: white;
+  margin-top: 10px;
+  width: 50%;
 }
