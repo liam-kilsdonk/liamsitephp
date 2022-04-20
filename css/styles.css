@@ -109,6 +109,7 @@ nav ul {
 }
 
 .nav-bar {
+  background-color: white;
   height: auto;
   width: 100%;
   display: flex;
@@ -602,4 +603,3 @@ input::-moz-focus-inner {
   width: 50%;
   font-size: medium;
 }
-
