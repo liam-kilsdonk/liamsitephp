@@ -4,7 +4,9 @@
           <div class="logo">
             <img width="50px" src="../images/logo-sushi.png" alt="sushi logo" />
           </div>
-          <input class="search-nav" type="text" placeholder="Search..">
+          <div class="align-search">
+            <input class="search-nav" type="text" placeholder="Search..">
+          </div>
           <nav>
             <ul>
               <a href="index.php">Home</a>
