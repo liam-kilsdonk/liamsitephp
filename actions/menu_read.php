@@ -30,8 +30,7 @@ try {
         currentb($v['subText']);
         currentb($v['prijs']);
         currentb($v['image']);
-        currentb("<button name='stuur1' style='background: red'><a href='../actions/menu_delete.php?id=".$v['id']."'>Verwijder</a></button>
-        <button name='stuur1' style='background: green'><a href='../actions/menu_updateonly.php?id=".$v['id']."'>update</a></button>");
+        currentb("<button name='stuur1' style='background: red'><a href='../actions/menu_delete.php?id=".$v['id']."'>Verwijder</a></button>");
         endChildren();
     }
     

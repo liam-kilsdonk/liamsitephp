@@ -599,7 +599,12 @@ input::-moz-focus-inner {
 
 .search-nav {
   background-color: white;
-  width: 50%;
+  width: 250px;
   font-size: medium;
+}
+
+.form-search {
+  width: 100%;
+  height: auto;
 }
 
