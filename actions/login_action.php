@@ -9,8 +9,6 @@ $stmt = $conn->prepare("SELECT * FROM users WHERE username=:username");
 $stmt->execute(['username' => $username]); 
 $user = $stmt->fetch();
 
-var_dump($user['password']);
-
 if (password_verify($password , $user['password'])) {
     session_start();
     $_SESSION['var'] = true;
