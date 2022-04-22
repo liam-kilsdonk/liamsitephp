@@ -16,7 +16,7 @@
             placeholder="Search.."
             name="search"
           />
-          <button type="submit"><i class="fa fa-search"></i></button>
+          <button type="submit" class="button-search"><i class="fa-solid fa-magnifying-glass"></i></button>
         </form>
       </div>
       <nav>

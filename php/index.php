@@ -35,82 +35,87 @@
         <div class="inner-page-home">
           <div class="intro-menu"><p>Populaire gerechten</p></div>
           <div class="pop-menu">
-            <div class="pop-row">
-              <div class="pop-dish">
-                <div class="pic-dish">
-                  <img height="250px" src="../images/nigiri.jpg" alt="#" />
-                </div>
-                <div class="text-dish">
-                  <h3>Nigiri</h3>
-                  <br />
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Voluptatum laboriosam delectus hic praesentium doloribus
-                    aliquid.
-                  </p>
-                  <br />
-                  <h4>€ 1,69</h4>
-                </div>
+            <div class="pop-dish">
+              <div class="pic-dish">
+                <img height="250px" src="../images/nigiri.jpg" alt="#" />
               </div>
-              <div class="pop-dish">
-                <div class="pic-dish">
-                  <img
-                    height="250px"
-                    src="../images/makizushi reform.png"
-                    alt="#"
-                  />
-                </div>
-                <div class="text-dish">
-                  <h3>Makizushi</h3>
-                  <br />
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Voluptatum laboriosam delectus hic praesentium doloribus
-                    aliquid.
-                  </p>
-                  <br />
-                  <h4>€ 2,99</h4>
-                </div>
+              <div class="text-dish">
+                <h3>Nigiri</h3>
+                <br />
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Voluptatum laboriosam delectus hic praesentium doloribus
+                  aliquid.
+                </p>
+                <br />
+                <h4>€ 1,69</h4>
               </div>
             </div>
-            <div class="pop-row">
-              <div class="pop-dish">
-                <div class="pic-dish">
-                  <img height="250px" src="../images/Inari-zushi.jpg" alt="#" />
-                </div>
-                <div class="text-dish">
-                  <h3>Inari-zushi</h3>
-                  <br />
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Voluptatum laboriosam delectus hic praesentium doloribus
-                    aliquid.
-                  </p>
-                  <br />
-                  <h4>€ 2,69</h4>
-                </div>
+            <div class="pop-dish">
+              <div class="pic-dish">
+                <img
+                  height="250px"
+                  src="../images/makizushi reform.png"
+                  alt="#"
+                />
               </div>
-              <div class="pop-dish">
-                <div class="pic-dish">
-                  <img height="250px" src="../images/temaki.jpg" alt="#" />
-                </div>
-                <div class="text-dish">
-                  <h3>Temaki</h3>
-                  <br />
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Voluptatum laboriosam delectus hic praesentium doloribus
-                    aliquid.
-                  </p>
-                  <br />
-                  <h4>€ 3,99</h4>
-                </div>
+              <div class="text-dish">
+                <h3>Makizushi</h3>
+                <br />
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Voluptatum laboriosam delectus hic praesentium doloribus
+                  aliquid.
+                </p>
+                <br />
+                <h4>€ 2,99</h4>
+              </div>
+            </div>
+
+            <div class="pop-dish">
+              <div class="pic-dish">
+                <img height="250px" src="../images/Inari-zushi.jpg" alt="#" />
+              </div>
+              <div class="text-dish">
+                <h3>Inari-zushi</h3>
+                <br />
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Voluptatum laboriosam delectus hic praesentium doloribus
+                  aliquid.
+                </p>
+                <br />
+                <h4>€ 2,69</h4>
+              </div>
+            </div>
+            <div class="pop-dish">
+              <div class="pic-dish">
+                <img height="250px" src="../images/temaki.jpg" alt="#" />
+              </div>
+              <div class="text-dish">
+                <h3>Temaki</h3>
+                <br />
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Voluptatum laboriosam delectus hic praesentium doloribus
+                  aliquid.
+                </p>
+                <br />
+                <h4>€ 3,99</h4>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="next-page">//</div>
+      <div class="next-page">
+        <div class="pakage">
+          <div class="titel-next"><p>Nijmegen, Kom langs!</p></div>
+          <div class="under-page">
+            <img src="../images/waalbrug.jpg" alt="waalbrug" />
+            <img src="../images/waalkadestoelen.jpg" alt="terras" />
+          </div>
+        </div>
+      </div>
     </main>
     <?php 
       include '../includes/footer.php';
