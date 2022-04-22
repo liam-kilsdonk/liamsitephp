@@ -87,7 +87,7 @@
                     aliquid.
                   </p>
                   <br />
-                  <h4>€ 1,99</h4>
+                  <h4>€ 2,69</h4>
                 </div>
               </div>
               <div class="pop-dish">
