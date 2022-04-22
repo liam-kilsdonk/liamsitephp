@@ -33,7 +33,7 @@
       </div>
       <div class="page-home">
         <div class="inner-page-home">
-          <div class="intro-menu"><p>Populaire gerechtenn</p></div>
+          <div class="intro-menu"><p>Populaire gerechten</p></div>
           <div class="pop-menu">
             <div class="pop-row">
               <div class="pop-dish">
